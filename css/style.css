@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.grid {
+  display: grid;
+  gap: 5px;
+  margin: 5px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.box {
+  border-radius: 5px;
+  border: 1px dashed black;
+}
+
+.box:first-child {
+  grid-column: 1 / 3;
+  grid-row: 1/3;
+  background-color: yellow;
+}
+
+.box:nth-child(2) {
+  grid-column: 3 /5;
+  background-color: orange;
+}
+
+.box:nth-child(3) {
+  background-color: red;
+}
+
+.box:nth-child(4) {
+  grid-column: 6/8;
+  grid-row: 1/3;
+  background-color: rgb(255, 0, 0, 60%);
+}
+
+.box:nth-child(5) {
+  grid-column: 8/10;
+  background-color: darkviolet;
+}
+
+.box:nth-child(6) {
+  background-color: rgb(36, 7, 64, 60%);
+}
+
+.box:nth-child(7) {
+  grid-column: 1/3;
+  background-color: indigo;
+}
+
+.box:nth-child(8) {
+  grid-row: 2/4;
+  background-color: rgb(41, 77, 122);
+}
+
+.box:nth-child(9) {
+  grid-column: 4/6;
+  grid-row: 2/4;
+  background-color: rgb(119, 148, 221);
+}
+
+.box:nth-child(10) {
+  grid-column: 6/8;
+  background-color: rgb(77, 77, 120);
+}
+
+.box:nth-child(11) {
+  grid-row: 2/4;
+  background-color: rgb(88, 83, 180);
+}
+
+.box:nth-child(12) {
+  grid-column: 9/11;
+  grid-row: 2/4;
+  background-color: rgb(87, 111, 51);
+}
+.box:nth-child(13) {
+  background-color: rgb(86, 239, 86);
+}
+
+.box:nth-child(14) {
+  grid-column: 2/4;
+  background-color: rgb(113, 143, 52);
+}
+.box:nth-child(15) {
+  grid-column: 4/6;
+  grid-row: 4/6;
+  background-color: rgb(247, 182, 3);
+}
+.box:nth-child(16) {
+  background-color: orangered;
+}
+.box:nth-child(17) {
+  grid-column: 7/9;
+  background-color: rgb(109, 86, 56);
+}
+.box:nth-child(18) {
+  grid-column: 9/11;
+  grid-row: 4/6;
+  background-color: rgb(83, 83, 165);
+}
+.box:nth-child(19) {
+  grid-column: 1/3;
+  grid-row: 5/7;
+  background-color: rgb(119, 198, 119);
+}
+.box:nth-child(20) {
+  grid-row: 5/7;
+  background-color: rgb(221, 116, 134);
+}
+.box:nth-child(21) {
+  grid-column: 4/6;
+  background-color: rgb(128, 206, 10);
+}
+.box:nth-child(22) {
+  grid-column: 6/8;
+  grid-row: 5/7;
+  background-color: rgb(255, 200, 4);
+}
+.box:nth-child(23) {
+  grid-row: 5/7;
+  background-color: rgb(187, 12, 129);
+}
+.box:nth-child(24) {
+  grid-column: 9/11;
+  background-color: rgb(100, 6, 100);
+}
